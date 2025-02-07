@@ -1,0 +1,42 @@
+.user-details {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+    margin: auto;
+    width: auto;
+    border-bottom: 1px solid gray;
+}
+
+.user-details:last-child {
+    border-bottom: none;
+}
+
+.table-data{
+    text-align: left;
+    border: 1px solid lightgray;
+    /* width: 100%; */
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    overflow: auto;
+    scrollbar-width: none;
+    word-break: break-word;
+    padding: 10px;
+}
+
+
+.edit-button,.delete-button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.edit-icon {
+    color: red;
+}
+
+.delete-icon {
+    color: blue;
+}
+

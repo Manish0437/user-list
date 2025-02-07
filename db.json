@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstname": "James",
+      "lastname": "clear",
+      "email": "jamesclear@example.com",
+      "department": "Human Resources"
+    },
+    {
+      "id": "2",
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "johndoe@example.com",
+      "department": "Information Technology"
+    },
+    {
+      "firstname": "racheal",
+      "lastname": "ketzyke",
+      "email": "rachealketzy@example.com",
+      "department": "Marketing",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "firstname": "hello",
+      "lastname": "world",
+      "email": "how@example.com",
+      "department": "security"
+    },
+    {
+      "id": "5",
+      "firstname": "kirimi",
+      "lastname": "qounzi",
+      "email": "kq@example.com",
+      "department": "Agriculture"
+    },
+    {
+      "id": "6",
+      "firstname": "jack",
+      "lastname": "reacher",
+      "email": "jackreacher@gmail.com",
+      "department": "security"
+    },
+    {
+      "id": "",
+      "firstname": "jack",
+      "lastname": "reacher",
+      "email": "jackreacher@gmail.com",
+      "department": "security"
+    }
+  ]
+}

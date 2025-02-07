@@ -1,0 +1,148 @@
+.App {
+  margin: 0px;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-color: azure;
+  animation-name: bluringbg;
+  animation-duration:1s;
+}
+
+@keyframes bluringbg {
+  from {
+    filter: blur(10px);
+  }
+  to {
+    filter: blur(0px);
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 0px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.user-list-heading {
+  position: absolute;
+  top: 0px;
+  margin: 0px;
+  left: 0px;
+  padding: 0px 25px;
+}
+
+.add-user-button {
+  background-color: #0868f7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  position: absolute;
+  right: 0px;
+  top: 7px;
+  margin-right:25px;
+  font-weight: bold;
+}
+
+.adduserLogo {
+  font-size: 17px;
+}
+
+table {
+  width: 90%;
+  height: auto;
+  /* background-color: red; */
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  overflow: auto;
+}
+
+.table-headings{
+  color:gray;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+  border: 1px solid lightgray;
+  height: auto;
+  padding: 10px;
+}
+
+.table-headings-row {
+  border: 1px solid lightgray;
+}
+
+
+.loader-container {
+  padding: 80px 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.failure-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.user-list-container {
+  width: 100%;
+  height: auto;
+}
+
+
