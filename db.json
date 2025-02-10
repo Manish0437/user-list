@@ -1,53 +1,46 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": "b4710552-e070-4686-bb1b-e4b9a95079d9",
       "firstname": "James",
       "lastname": "clear",
-      "email": "jamesclear@example.com",
+      "email": "jamesclear@gmail.com",
       "department": "Human Resources"
     },
     {
-      "id": "2",
+      "id": "f2174aac-2082-4e21-a154-ba22451e2dde",
       "firstname": "John",
       "lastname": "Doe",
-      "email": "johndoe@example.com",
-      "department": "Information Technology"
+      "email": "johndoe@gmail.com",
+      "department": "Information"
     },
     {
-      "firstname": "racheal",
-      "lastname": "ketzyke",
-      "email": "rachealketzy@example.com",
-      "department": "Marketing",
-      "id": "3"
+      "id": "76f14b59-4405-419e-bb06-9443e260e285",
+      "firstname": "Jesse",
+      "lastname": "pink man",
+      "email": "jessepinkman@gmail.com",
+      "department": "science"
     },
     {
-      "id": "4",
-      "firstname": "hello",
-      "lastname": "world",
-      "email": "how@example.com",
-      "department": "security"
+      "id": "ecfe486d-584f-4547-8047-6a52dddd1715",
+      "firstname": "robert",
+      "lastname": "williams",
+      "email": "robertwilliams@gmail.com",
+      "department": "marketing"
     },
     {
-      "id": "5",
-      "firstname": "kirimi",
-      "lastname": "qounzi",
-      "email": "kq@example.com",
-      "department": "Agriculture"
-    },
-    {
-      "id": "6",
+      "id": "76ff4599-20af-4d20-86b6-d9fc0a42e7a7",
       "firstname": "jack",
       "lastname": "reacher",
       "email": "jackreacher@gmail.com",
       "department": "security"
     },
     {
-      "id": "",
-      "firstname": "jack",
-      "lastname": "reacher",
-      "email": "jackreacher@gmail.com",
-      "department": "security"
+      "id": "a09aaad3-dcac-4bf4-a12e-de678702b189",
+      "firstname": "walter",
+      "lastname": "whiteman",
+      "email": "walterwhiteman@gmail.com",
+      "department": "chemistry"
     }
   ]
 }

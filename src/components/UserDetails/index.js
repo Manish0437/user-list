@@ -3,17 +3,17 @@ import { MdOutlineModeEditOutline } from "react-icons/md";
 
 import './style.css';
 
-const userDetails = props => {
+const UserDetails = props => {
     const {userDetails,editUserDetails,deleteUserDetails} = props;
     const {id,firstName,lastName,email,department} = userDetails;
 
     const handleEditUserDetails = () => {
-        // console.log("Edit user details clicked");
+        console.log(`Edit user details clicked ${id}`);
         editUserDetails(id);
     };
 
     const handleDeleteUserDetails = () => {
-        // console.log("Delete user details clicked");
+        console.log(`Delete user details clicked ${id}`);
         deleteUserDetails(id);
     };
 
@@ -36,4 +36,4 @@ const userDetails = props => {
     );
 };
 
-export default userDetails;
+export default UserDetails;
