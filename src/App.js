@@ -296,7 +296,7 @@ class App extends Component {
 
   getUserList = async () => {
     this.setState({apiStatus:apiStatusConstants.inProgress});
-    const apiUrl="http://localhost:3005";
+    const apiUrl=process.env.REACT_APP_API_URL;
     const options = {
       method: 'GET',
     };
@@ -334,7 +334,7 @@ class App extends Component {
       return;
   }
     const { isAddingUser} = this.state;
-    const apiUrl = "http://localhost:3005";
+    const apiUrl = process.env.REACT_APP_API_URL;
 
     try {
       console.log(updateduserData);
@@ -416,7 +416,7 @@ class App extends Component {
   editUserDetails = (id) => {
     console.log("Edit user details clicked",id);
 
-    const {userList, isFormVisible} = this.state;
+    const {userList} = this.state;
     const filteredUser = userList.find(user => user.id === id);
     // const {firstName,lastName,email,department} = filteredUser;
     console.log(filteredUser);
@@ -425,7 +425,8 @@ class App extends Component {
 
   deleteUserDetails = async(id) => {
     try {
-      const response = await fetch(`http://localhost:3005/users/${id}`, {
+      const apiUrl = process.env.REACT_APP_API_URL;
+      const response = await fetch(`${apiUrl}/users/${id}`, {
         method: 'DELETE',
       });
 
