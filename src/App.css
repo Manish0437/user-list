@@ -96,7 +96,7 @@ header {
 }
 
 table {
-  width: 90%;
+  width: auto;
   height: auto;
   /* background-color: red; */
   margin: auto;

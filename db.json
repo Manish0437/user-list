@@ -41,6 +41,48 @@
       "lastname": "whiteman",
       "email": "walterwhiteman@gmail.com",
       "department": "chemistry"
+    },
+    {
+      "id": "a46d727b-32af-4a69-a902-b948ddc6f12a",
+      "firstname": "george",
+      "lastname": "cooper",
+      "email": "georgecooper@gmail.com",
+      "department": "Education"
+    },
+    {
+      "id": "03810f95-4df1-4233-9e33-09885d63d7cd",
+      "firstname": "henry",
+      "lastname": "gerald",
+      "email": "henrygerald@gmail.com",
+      "department": "sports"
+    },
+    {
+      "id": "632e263e-c05b-4e00-867e-04fa856d4aad",
+      "firstname": "Johnny",
+      "lastname": "test",
+      "email": "johnnytest@gmail.com",
+      "department": "chemistry"
+    },
+    {
+      "id": "d46b640c-74ed-4c08-9858-043e61e2ca0b",
+      "firstname": "benjman",
+      "lastname": "tennyson",
+      "email": "benjmantennyson@gmail.com",
+      "department": "sports"
+    },
+    {
+      "id": "cddb744b-ba99-46b9-a63a-dd34030aee61",
+      "firstname": "harry",
+      "lastname": "james",
+      "email": "harryjames@gmail.com",
+      "department": "teaching"
+    },
+    {
+      "id": "5a840ce3-4ad9-4479-83a9-2422b01e9fcf",
+      "firstname": "francis",
+      "lastname": "petro",
+      "email": "francispetro@gmail.com",
+      "department": "Art"
     }
   ]
 }

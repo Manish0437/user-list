@@ -21,8 +21,9 @@
     text-overflow: ellipsis; */
     overflow: auto;
     scrollbar-width: none;
-    word-break: break-word;
+    /* word-break: break-word; */
     padding: 10px;
+    word-break: inherit;
 }
 
 
