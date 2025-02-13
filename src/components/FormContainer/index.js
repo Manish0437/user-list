@@ -209,7 +209,8 @@
 
 
 import { useState,useEffect } from "react";
-import { GiCancel } from "react-icons/gi";
+// import { GiCancel } from "react-icons/gi";
+import { RxCross2 } from "react-icons/rx";
 import './style.css';
 import {v4 as uuidv4} from 'uuid';
 
@@ -278,7 +279,8 @@ const FormContainer = props => {
         <div className="form-bg-container">
           <div className="form-container">
             <button type="button" className="cancel-cross-button" onClick={onCancel}>
-            <GiCancel />
+            {/* <GiCancel /> */}
+            <RxCross2 />
             </button>
         <form className="form" onSubmit={onSave}>
             <h1 className="form-heading">
