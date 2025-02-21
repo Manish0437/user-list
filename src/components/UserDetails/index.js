@@ -1,4 +1,5 @@
 import { RiDeleteBin6Line } from "react-icons/ri";
+import React from "react";
 import { MdOutlineModeEditOutline } from "react-icons/md";
 
 import './style.css';

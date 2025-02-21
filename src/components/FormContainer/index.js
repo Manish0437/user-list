@@ -207,7 +207,7 @@
 
 
 
-
+import React from "react";
 import { useState,useEffect } from "react";
 // import { GiCancel } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";

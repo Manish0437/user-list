@@ -1,4 +1,4 @@
-.App {
+/* .App {
   margin: 0px;
   padding: 15px;
   box-sizing: border-box;
@@ -98,7 +98,6 @@ header {
 table {
   width: auto;
   height: auto;
-  /* background-color: red; */
   margin: auto;
   border: 1px solid gray;
   border-radius: 4px;
@@ -147,7 +146,248 @@ table {
 
 
 .user-list-table {
-  width: 100%;
-  height: 85vh;
+  width: 90%;
+  height: 87%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.user-list-table {
+  border: 1px solid red;
+  border-radius: 8px;
+  margin: auto;
+  background: white;
+}
+
+.user-list-table > div {
+  flex: 1;
   overflow: auto;
+  height: 100%;
+  border-bottom: 2px solid blue;
+}
+
+.user-list-table table {
+  border-collapse: collapse;
+}
+
+.user-list-table thead {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+}
+
+
+@media screen and (min-width:768px){
+  .table-headings{
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (min-width:1024px){
+  .table-headings {
+    font-size:20px;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App {
+  margin: 0px;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-color: azure;
+  animation-name: bluringbg;
+  animation-duration: 1s;
+}
+
+@keyframes bluringbg {
+  from {
+    filter: blur(10px);
+  }
+  to {
+    filter: blur(0px);
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 0px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.user-list-heading {
+  position: absolute;
+  top: 0px;
+  margin: 0px;
+  left: 0px;
+  padding: 0px 25px;
+}
+
+.add-user-button {
+  background-color: #0868f7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  position: absolute;
+  right: 0px;
+  top: 7px;
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.adduserLogo {
+  font-size: 17px;
+}
+
+.user-list-table {
+  width: 90%;
+  height: 87%;
+  /* overflow-y: auto; */
+  position: relative;
+  /* border: 1px solid red; */
+  border-radius: 8px;
+  margin: auto;
+  background: white;
+}
+
+.user-list-table > div {
+  flex: 1;
+  overflow: auto;
+  height: 100%;
+  /* border-bottom: 2px solid blue; */
+}
+
+.user-list-table table {
+  border-collapse: collapse;
+  height: 102%;
+}
+
+.user-list-table thead {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+}
+
+.table-headings {
+  color: gray;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+  border: 1px solid lightgray;
+  height: auto;
+  padding: 10px;
+}
+
+.table-headings-row {
+  border: 1px solid lightgray;
+}
+
+.loader-container {
+  padding: 80px 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.failure-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.user-list-container {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .table-headings {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .table-headings {
+    font-size: 20px;
+  }
+
+  table{
+    height: 102%;
+  }
 }
